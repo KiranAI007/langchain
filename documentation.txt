@@ -1,0 +1,24 @@
+1). What is Langchain in python?
+    Langchain in Python is a powerful framework that allows you to easily create and experiment with applications powered by 
+large language models (LLMs). It provides a range of tools and components to simplify the development process, making it accessible 
+to both developers and researchers with varying levels of NLP experience.
+
+Unlike standard API calls, Langchain allows you to connect your LLM with various data sources for richer and more personalized 
+experiences. Langchain supports various NLP tasks like text summarization, machine translation, question answering, and data augmentation.
+It also integrates with popular LLM platforms like OpenAI and Hugging Face, giving you access to a wide range of pre-trained models.
+
+2). There are two main ways to connect Langchain with LLM models.
+    Langchain provides pre-built agents for various LLM models like OpenAI's API and Hugging Face transformers. These agents simplify 
+the interaction by handling authentication, model selection, and input/output formatting. 
+    a). Identify the LLM provider: First, choose the LLM platform you want to use (e.g., OpenAI API, Hugging Face).
+    b). Install the relevant library: Install the specific Langchain library for your chosen provider (e.g., langchain.llms.openai for 
+    OpenAI).
+    c). Configure the agent: Set up the agent with your provider credentials (e.g., API key for OpenAI) and select the desired 
+    LLM model.
+    d). Use the agent in your workflow: Interact with the LLM through the agent using methods like generate_text or answer_question.
+
+3). What is PromptTemplate?
+    PromptTemplate, particularly in the context of Langchain, refers to a specific tool used to create dynamic and reusable prompts 
+for Large Language Models (LLMs). Essentially, it allows you to build a template with placeholders instead of writing the entire prompt 
+from scratch each time. PromptTemplate in Langchain plays a crucial role in constructing dynamic and reusable prompts for 
+Large Language Models (LLMs).
